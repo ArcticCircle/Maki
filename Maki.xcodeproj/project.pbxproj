@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		587213511D34CB7900406BD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213501D34CB7900406BD5 /* AppDelegate.swift */; };
-		587213531D34CB7900406BD5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 587213521D34CB7900406BD5 /* GameScene.sks */; };
 		587213551D34CB7900406BD5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213541D34CB7900406BD5 /* GameScene.swift */; };
 		587213571D34CB7900406BD5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213561D34CB7900406BD5 /* GameViewController.swift */; };
 		5872135A1D34CB7900406BD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587213581D34CB7900406BD5 /* Main.storyboard */; };
@@ -16,6 +15,8 @@
 		5872135F1D34CB7900406BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5872135D1D34CB7900406BD5 /* LaunchScreen.storyboard */; };
 		5872136A1D34CB7900406BD5 /* MakiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213691D34CB7900406BD5 /* MakiTests.swift */; };
 		587213751D34CB7900406BD5 /* MakiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213741D34CB7900406BD5 /* MakiUITests.swift */; };
+		587213841D34D14300406BD5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213821D34D14300406BD5 /* Data.swift */; };
+		587213851D34D14300406BD5 /* KristyEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213831D34D14300406BD5 /* KristyEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 /* Begin PBXFileReference section */
 		5872134D1D34CB7900406BD5 /* Maki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		587213501D34CB7900406BD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		587213521D34CB7900406BD5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		587213541D34CB7900406BD5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		587213561D34CB7900406BD5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		587213591D34CB7900406BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,8 @@
 		587213701D34CB7900406BD5 /* MakiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		587213741D34CB7900406BD5 /* MakiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakiUITests.swift; sourceTree = "<group>"; };
 		587213761D34CB7900406BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587213821D34D14300406BD5 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		587213831D34D14300406BD5 /* KristyEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KristyEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				587213501D34CB7900406BD5 /* AppDelegate.swift */,
-				587213521D34CB7900406BD5 /* GameScene.sks */,
 				587213541D34CB7900406BD5 /* GameScene.swift */,
 				587213561D34CB7900406BD5 /* GameViewController.swift */,
+				587213821D34D14300406BD5 /* Data.swift */,
+				587213831D34D14300406BD5 /* KristyEngine.swift */,
 				587213581D34CB7900406BD5 /* Main.storyboard */,
 				5872135B1D34CB7900406BD5 /* Assets.xcassets */,
 				5872135D1D34CB7900406BD5 /* LaunchScreen.storyboard */,
@@ -238,7 +241,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				587213531D34CB7900406BD5 /* GameScene.sks in Resources */,
 				5872135F1D34CB7900406BD5 /* LaunchScreen.storyboard in Resources */,
 				5872135C1D34CB7900406BD5 /* Assets.xcassets in Resources */,
 				5872135A1D34CB7900406BD5 /* Main.storyboard in Resources */,
@@ -268,7 +270,9 @@
 			files = (
 				587213551D34CB7900406BD5 /* GameScene.swift in Sources */,
 				587213571D34CB7900406BD5 /* GameViewController.swift in Sources */,
+				587213851D34D14300406BD5 /* KristyEngine.swift in Sources */,
 				587213511D34CB7900406BD5 /* AppDelegate.swift in Sources */,
+				587213841D34D14300406BD5 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +501,7 @@
 				5872137B1D34CB7900406BD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5872137C1D34CB7900406BD5 /* Build configuration list for PBXNativeTarget "MakiTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +510,7 @@
 				5872137E1D34CB7900406BD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5872137F1D34CB7900406BD5 /* Build configuration list for PBXNativeTarget "MakiUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +519,7 @@
 				587213811D34CB7900406BD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
