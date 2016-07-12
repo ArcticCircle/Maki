@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		587213511D34CB7900406BD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213501D34CB7900406BD5 /* AppDelegate.swift */; };
+		587213531D34CB7900406BD5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 587213521D34CB7900406BD5 /* GameScene.sks */; };
+		587213551D34CB7900406BD5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213541D34CB7900406BD5 /* GameScene.swift */; };
+		587213571D34CB7900406BD5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213561D34CB7900406BD5 /* GameViewController.swift */; };
+		5872135A1D34CB7900406BD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587213581D34CB7900406BD5 /* Main.storyboard */; };
+		5872135C1D34CB7900406BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5872135B1D34CB7900406BD5 /* Assets.xcassets */; };
+		5872135F1D34CB7900406BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5872135D1D34CB7900406BD5 /* LaunchScreen.storyboard */; };
+		5872136A1D34CB7900406BD5 /* MakiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213691D34CB7900406BD5 /* MakiTests.swift */; };
+		587213751D34CB7900406BD5 /* MakiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213741D34CB7900406BD5 /* MakiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		587213661D34CB7900406BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 587213451D34CB7900406BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5872134C1D34CB7900406BD5;
+			remoteInfo = Maki;
+		};
+		587213711D34CB7900406BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 587213451D34CB7900406BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5872134C1D34CB7900406BD5;
+			remoteInfo = Maki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5872134D1D34CB7900406BD5 /* Maki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		587213501D34CB7900406BD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		587213521D34CB7900406BD5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		587213541D34CB7900406BD5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		587213561D34CB7900406BD5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		587213591D34CB7900406BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5872135B1D34CB7900406BD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5872135E1D34CB7900406BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		587213601D34CB7900406BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587213651D34CB7900406BD5 /* MakiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		587213691D34CB7900406BD5 /* MakiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakiTests.swift; sourceTree = "<group>"; };
+		5872136B1D34CB7900406BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587213701D34CB7900406BD5 /* MakiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		587213741D34CB7900406BD5 /* MakiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakiUITests.swift; sourceTree = "<group>"; };
+		587213761D34CB7900406BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5872134A1D34CB7900406BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587213621D34CB7900406BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5872136D1D34CB7900406BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		587213441D34CB7900406BD5 = {
+			isa = PBXGroup;
+			children = (
+				5872134F1D34CB7900406BD5 /* Maki */,
+				587213681D34CB7900406BD5 /* MakiTests */,
+				587213731D34CB7900406BD5 /* MakiUITests */,
+				5872134E1D34CB7900406BD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5872134E1D34CB7900406BD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5872134D1D34CB7900406BD5 /* Maki.app */,
+				587213651D34CB7900406BD5 /* MakiTests.xctest */,
+				587213701D34CB7900406BD5 /* MakiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5872134F1D34CB7900406BD5 /* Maki */ = {
+			isa = PBXGroup;
+			children = (
+				587213501D34CB7900406BD5 /* AppDelegate.swift */,
+				587213521D34CB7900406BD5 /* GameScene.sks */,
+				587213541D34CB7900406BD5 /* GameScene.swift */,
+				587213561D34CB7900406BD5 /* GameViewController.swift */,
+				587213581D34CB7900406BD5 /* Main.storyboard */,
+				5872135B1D34CB7900406BD5 /* Assets.xcassets */,
+				5872135D1D34CB7900406BD5 /* LaunchScreen.storyboard */,
+				587213601D34CB7900406BD5 /* Info.plist */,
+			);
+			path = Maki;
+			sourceTree = "<group>";
+		};
+		587213681D34CB7900406BD5 /* MakiTests */ = {
+			isa = PBXGroup;
+			children = (
+				587213691D34CB7900406BD5 /* MakiTests.swift */,
+				5872136B1D34CB7900406BD5 /* Info.plist */,
+			);
+			path = MakiTests;
+			sourceTree = "<group>";
+		};
+		587213731D34CB7900406BD5 /* MakiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				587213741D34CB7900406BD5 /* MakiUITests.swift */,
+				587213761D34CB7900406BD5 /* Info.plist */,
+			);
+			path = MakiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5872134C1D34CB7900406BD5 /* Maki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587213791D34CB7900406BD5 /* Build configuration list for PBXNativeTarget "Maki" */;
+			buildPhases = (
+				587213491D34CB7900406BD5 /* Sources */,
+				5872134A1D34CB7900406BD5 /* Frameworks */,
+				5872134B1D34CB7900406BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Maki;
+			productName = Maki;
+			productReference = 5872134D1D34CB7900406BD5 /* Maki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		587213641D34CB7900406BD5 /* MakiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5872137C1D34CB7900406BD5 /* Build configuration list for PBXNativeTarget "MakiTests" */;
+			buildPhases = (
+				587213611D34CB7900406BD5 /* Sources */,
+				587213621D34CB7900406BD5 /* Frameworks */,
+				587213631D34CB7900406BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				587213671D34CB7900406BD5 /* PBXTargetDependency */,
+			);
+			name = MakiTests;
+			productName = MakiTests;
+			productReference = 587213651D34CB7900406BD5 /* MakiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5872136F1D34CB7900406BD5 /* MakiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5872137F1D34CB7900406BD5 /* Build configuration list for PBXNativeTarget "MakiUITests" */;
+			buildPhases = (
+				5872136C1D34CB7900406BD5 /* Sources */,
+				5872136D1D34CB7900406BD5 /* Frameworks */,
+				5872136E1D34CB7900406BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				587213721D34CB7900406BD5 /* PBXTargetDependency */,
+			);
+			name = MakiUITests;
+			productName = MakiUITests;
+			productReference = 587213701D34CB7900406BD5 /* MakiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		587213451D34CB7900406BD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ArcticCircle;
+				TargetAttributes = {
+					5872134C1D34CB7900406BD5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DSW97M5Q6C;
+					};
+					587213641D34CB7900406BD5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DSW97M5Q6C;
+						TestTargetID = 5872134C1D34CB7900406BD5;
+					};
+					5872136F1D34CB7900406BD5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DSW97M5Q6C;
+						TestTargetID = 5872134C1D34CB7900406BD5;
+					};
+				};
+			};
+			buildConfigurationList = 587213481D34CB7900406BD5 /* Build configuration list for PBXProject "Maki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 587213441D34CB7900406BD5;
+			productRefGroup = 5872134E1D34CB7900406BD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5872134C1D34CB7900406BD5 /* Maki */,
+				587213641D34CB7900406BD5 /* MakiTests */,
+				5872136F1D34CB7900406BD5 /* MakiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5872134B1D34CB7900406BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587213531D34CB7900406BD5 /* GameScene.sks in Resources */,
+				5872135F1D34CB7900406BD5 /* LaunchScreen.storyboard in Resources */,
+				5872135C1D34CB7900406BD5 /* Assets.xcassets in Resources */,
+				5872135A1D34CB7900406BD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587213631D34CB7900406BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5872136E1D34CB7900406BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		587213491D34CB7900406BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587213551D34CB7900406BD5 /* GameScene.swift in Sources */,
+				587213571D34CB7900406BD5 /* GameViewController.swift in Sources */,
+				587213511D34CB7900406BD5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587213611D34CB7900406BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5872136A1D34CB7900406BD5 /* MakiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5872136C1D34CB7900406BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587213751D34CB7900406BD5 /* MakiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		587213671D34CB7900406BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5872134C1D34CB7900406BD5 /* Maki */;
+			targetProxy = 587213661D34CB7900406BD5 /* PBXContainerItemProxy */;
+		};
+		587213721D34CB7900406BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5872134C1D34CB7900406BD5 /* Maki */;
+			targetProxy = 587213711D34CB7900406BD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		587213581D34CB7900406BD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587213591D34CB7900406BD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5872135D1D34CB7900406BD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5872135E1D34CB7900406BD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		587213771D34CB7900406BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		587213781D34CB7900406BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5872137A1D34CB7900406BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Maki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArcticCircle.Maki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5872137B1D34CB7900406BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Maki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArcticCircle.Maki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5872137D1D34CB7900406BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MakiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArcticCircle.MakiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maki.app/Maki";
+			};
+			name = Debug;
+		};
+		5872137E1D34CB7900406BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MakiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArcticCircle.MakiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maki.app/Maki";
+			};
+			name = Release;
+		};
+		587213801D34CB7900406BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MakiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArcticCircle.MakiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Maki;
+			};
+			name = Debug;
+		};
+		587213811D34CB7900406BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MakiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArcticCircle.MakiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Maki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		587213481D34CB7900406BD5 /* Build configuration list for PBXProject "Maki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587213771D34CB7900406BD5 /* Debug */,
+				587213781D34CB7900406BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587213791D34CB7900406BD5 /* Build configuration list for PBXNativeTarget "Maki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5872137A1D34CB7900406BD5 /* Debug */,
+				5872137B1D34CB7900406BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5872137C1D34CB7900406BD5 /* Build configuration list for PBXNativeTarget "MakiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5872137D1D34CB7900406BD5 /* Debug */,
+				5872137E1D34CB7900406BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5872137F1D34CB7900406BD5 /* Build configuration list for PBXNativeTarget "MakiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587213801D34CB7900406BD5 /* Debug */,
+				587213811D34CB7900406BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 587213451D34CB7900406BD5 /* Project object */;
+}
