@@ -15,8 +15,9 @@
 		5872135F1D34CB7900406BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5872135D1D34CB7900406BD5 /* LaunchScreen.storyboard */; };
 		5872136A1D34CB7900406BD5 /* MakiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213691D34CB7900406BD5 /* MakiTests.swift */; };
 		587213751D34CB7900406BD5 /* MakiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213741D34CB7900406BD5 /* MakiUITests.swift */; };
-		587213841D34D14300406BD5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213821D34D14300406BD5 /* Data.swift */; };
+		587213841D34D14300406BD5 /* GlobalParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213821D34D14300406BD5 /* GlobalParameter.swift */; };
 		587213851D34D14300406BD5 /* KristyEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213831D34D14300406BD5 /* KristyEngine.swift */; };
+		587213871D34D90300406BD5 /* AnalogJoystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587213861D34D90300406BD5 /* AnalogJoystick.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +52,9 @@
 		587213701D34CB7900406BD5 /* MakiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		587213741D34CB7900406BD5 /* MakiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakiUITests.swift; sourceTree = "<group>"; };
 		587213761D34CB7900406BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		587213821D34D14300406BD5 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		587213821D34D14300406BD5 /* GlobalParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalParameter.swift; sourceTree = "<group>"; };
 		587213831D34D14300406BD5 /* KristyEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KristyEngine.swift; sourceTree = "<group>"; };
+		587213861D34D90300406BD5 /* AnalogJoystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalogJoystick.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +107,9 @@
 			children = (
 				587213501D34CB7900406BD5 /* AppDelegate.swift */,
 				587213541D34CB7900406BD5 /* GameScene.swift */,
+				587213861D34D90300406BD5 /* AnalogJoystick.swift */,
 				587213561D34CB7900406BD5 /* GameViewController.swift */,
-				587213821D34D14300406BD5 /* Data.swift */,
+				587213821D34D14300406BD5 /* GlobalParameter.swift */,
 				587213831D34D14300406BD5 /* KristyEngine.swift */,
 				587213581D34CB7900406BD5 /* Main.storyboard */,
 				5872135B1D34CB7900406BD5 /* Assets.xcassets */,
@@ -202,7 +205,6 @@
 				TargetAttributes = {
 					5872134C1D34CB7900406BD5 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = DSW97M5Q6C;
 					};
 					587213641D34CB7900406BD5 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -269,10 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				587213551D34CB7900406BD5 /* GameScene.swift in Sources */,
+				587213871D34D90300406BD5 /* AnalogJoystick.swift in Sources */,
 				587213571D34CB7900406BD5 /* GameViewController.swift in Sources */,
 				587213851D34D14300406BD5 /* KristyEngine.swift in Sources */,
 				587213511D34CB7900406BD5 /* AppDelegate.swift in Sources */,
-				587213841D34D14300406BD5 /* Data.swift in Sources */,
+				587213841D34D14300406BD5 /* GlobalParameter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Maki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ArcticCircle.Maki;
@@ -427,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Maki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ArcticCircle.Maki;
