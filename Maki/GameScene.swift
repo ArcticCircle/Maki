@@ -58,7 +58,7 @@ class GameScene: SKScene {
                 
             }
             else{
-                aN.position = CGPointMake(aN.position.x , aN.position.y + (data.velocity.y * 0.12))
+                aN.position = CGPointMake(aN.position.x , aN.position.y)
                 print("Down")
             }
             
