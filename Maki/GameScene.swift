@@ -12,6 +12,7 @@ class GameScene: SKScene {
     
     var appleNode: SKSpriteNode?
     let moveAnalogStick =  🕹(diameter: 110)
+    let btnStartConnect = SKSpriteNode(imageNamed: "gear")
     
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
@@ -45,7 +46,7 @@ class GameScene: SKScene {
             
             if ( data.angular <= pi/4 && data.angular >= -pi/4 ) {
                 print("Up")
-                aN.position = CGPointMake(aN.position.x , aN.position.y + (data.velocity.y * 0.12))
+                aN.position = CGPointMake(aN.position.x + (data.velocity.x * 0.12), aN.position.y + (data.velocity.y * 0.12))
 
             }
             else if ( data.angular <= pi/4 * 3 && data.angular >= pi/4 ){
@@ -58,7 +59,7 @@ class GameScene: SKScene {
                 
             }
             else{
-                aN.position = CGPointMake(aN.position.x , aN.position.y)
+                aN.position = CGPointMake(aN.position.x + (data.velocity.x * 0.12), aN.position.y + (data.velocity.y * 0.12))
                 print("Down")
             }
             
@@ -72,6 +73,9 @@ class GameScene: SKScene {
         
         //MARK: Handlers happy end
     
+        btnStartConnect.position = CGPointMake(CGRectGetMaxX(frame) - CGRectGetWidth(btnStartConnect.frame), 10)
+        addChild(btnStartConnect)
+        
         moveAnalogStick.stick.color = UIColor.lightGrayColor()
         moveAnalogStick.substrate.color = UIColor.blackColor()
         addApple(CGPointMake(CGRectGetMidX(frame), CGRectGetMidY(frame)))
@@ -88,6 +92,8 @@ class GameScene: SKScene {
             let node = nodeAtPoint(touch.locationInNode(self))
             
             switch node {
+            case btnStartConnect:
+                print("本来是Start To Connect的")
                 
             default:
                 print("本来是加苹果的 或者处理按钮的")
@@ -104,6 +110,7 @@ class GameScene: SKScene {
         
         apple.physicsBody = SKPhysicsBody(texture: texture, size: apple.size)
         apple.physicsBody!.affectedByGravity = true
+        apple.physicsBody?.allowsRotation = false
         
         
         insertChild(apple, atIndex: 0)

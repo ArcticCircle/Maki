@@ -8,16 +8,27 @@
 
 import UIKit
 import SpriteKit
+import MultipeerConnectivity
 
-class GameViewController: UIViewController {
+
+class GameViewController: UIViewController, MCBrowserViewControllerDelegate, MCSessionDelegate {
+    
+    // For MC Module
+    let serviceType = "MCConnect"
+    var browser : MCBrowserViewController!
+    var assistant : MCAdvertiserAssistant!
+    var session : MCSession!
+    var peerID: MCPeerID!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
         // Configure the view.
         let scene = GameScene(size: self.view.bounds.size)
         scene.backgroundColor = .whiteColor()
         if let skView = self.view as? SKView {
-            
             skView.showsFPS = true
             skView.showsNodeCount = true
             /* Sprite Kit applies additional optimizations to improve rendering performance */
@@ -26,7 +37,13 @@ class GameViewController: UIViewController {
             //scene.scaleMode = .AspectFill
             skView.presentScene(scene)
         }
-
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        // Init MC Module
+        initMultipeer()
+        startToConnect()
     }
     
         
